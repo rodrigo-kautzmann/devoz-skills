@@ -1,0 +1,17 @@
+{
+  "logos": {
+    "positivo_png": {
+      "drive_file_id": "1MD7nQ8KbEzJ7Cf8-myI7lKuBVGe7dhHx",
+      "title": "LOGO OZmap_POSITIVO.png",
+      "mime_type": "image/png",
+      "description": "Logo OZmap positivo (fundo claro). Use em documentos com fundo branco."
+    },
+    "negativo_jpg": {
+      "drive_file_id": "1azSTPESCoPIi_64vZ2sgkBvGCo9i5jXD",
+      "title": "LOGO OZmap_NEGATIVO.jpg",
+      "mime_type": "image/jpeg",
+      "description": "Logo OZmap negativo (fundo escuro). Use em cabeçalhos com fundo verde ou preto."
+    }
+  },
+  "drive_folder": "11kGGNDadqmeLwnf-axUhtByD885FCy8n"
+}
