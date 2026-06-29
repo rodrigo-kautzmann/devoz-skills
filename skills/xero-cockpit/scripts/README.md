@@ -1,11 +1,6 @@
-# Scripts de `xero-cockpit`
+# (vazio de propósito)
 
-Coloque aqui os scripts executáveis desta skill, migrados do repositório do cockpit:
+O código desta skill **não mora aqui** — é apontado, não copiado.
+Veja a seção **Código-fonte (canônico)** no `SKILL.md`, que linka o repo do cockpit:
 
-```
-xero_ingest.py, transform_xero.py, seed_classificacao_xero.csv, pais_override.csv
-```
-
-**Regras**
-- Sem segredos no repo. Tokens/keys via variáveis de ambiente (.env local; secrets no GitHub Actions).
-- Mantenha o SKILL.md apontando para os caminhos relativos destes scripts.
+https://github.com/rodrigo-kautzmann/cockpit-devoz

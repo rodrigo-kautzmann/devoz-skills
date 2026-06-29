@@ -64,3 +64,15 @@ Conhecimento prático para puxar e normalizar faturamento do Superlógica. Empre
 ## Para incrementar esta skill
 Acrescente aqui: novos `status` úteis, mudanças de campos da API, novas regras de
 classificação por cliente/produto, e qualquer endpoint novo que passarmos a usar.
+
+---
+
+## Código-fonte (canônico)
+
+O código executável desta skill **não** mora aqui — vive no repositório da aplicação do cockpit, com pipeline próprio (GitHub Actions). Esta skill é o ponteiro de "como rodar".
+
+**Repo:** [https://github.com/rodrigo-kautzmann/cockpit-devoz](https://github.com/rodrigo-kautzmann/cockpit-devoz)
+
+**Arquivos principais:**
+- `etl/superlogica_ingest.py`, `etl/transform_superlogica.py`
+- `db/seed_classificacao_br.csv`, `db/seed_plano_virtual.csv`

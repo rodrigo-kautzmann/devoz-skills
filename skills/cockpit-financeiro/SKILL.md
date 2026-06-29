@@ -83,3 +83,16 @@ Para detalhes de cada fonte, ver as skills [[xero-cockpit]], [[superlogica-cockp
 ## Para incrementar esta skill
 Acrescente: novas views/métricas, mudanças de schema, pendências do REVISAO.md resolvidas
 (materializar views, dim_produto, NRR 12m, coorte), e qualquer decisão de modelagem nova.
+
+---
+
+## Código-fonte (canônico)
+
+O código executável desta skill **não** mora aqui — vive no repositório da aplicação do cockpit, com pipeline próprio (GitHub Actions). Esta skill é o ponteiro de "como rodar".
+
+**Repo:** [https://github.com/rodrigo-kautzmann/cockpit-devoz](https://github.com/rodrigo-kautzmann/cockpit-devoz)
+
+**Arquivos principais:**
+- Orquestração: `etl/run_daily.py`, `etl/apply_sql.py`, `etl/load_supabase.py`, `etl/setup_cockpit.py`, `etl/fx_rates.py`, `etl/metabase_apply.py`
+- Banco: `db/schema*.sql`, `db/views_*.sql`, `db/cards/*.sql`
+- Pipeline: `.github/workflows/daily.yml`, `weekly.yml`, `apply-sql.yml`

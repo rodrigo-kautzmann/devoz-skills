@@ -41,8 +41,10 @@ devoz-skills/
 4. Registre a skill no catálogo do Confluence e linke da página da área dona.
 5. Suba a versão em `plugin.json` (semver) e abra PR.
 
-## Migração pendente
-Os scripts das skills do cockpit (`xero_ingest.py`, `superlogica_ingest.py`, `zoho_ingest.py`, `transform_*.py`, `build_dim_cliente.py`, `apply_sql.py`, seeds) ainda vivem no repositório do cockpit. Cada pasta `scripts/` tem um README listando o que migrar pra cá.
+## Código do cockpit (apontado, não copiado)
+As skills da família cockpit (xero, superlógica, zoho, cockpit-financeiro) **não** carregam o código aqui. O código é uma aplicação coesa (orquestrador, módulos compartilhados, schema de banco, pipeline no GitHub Actions) e vive no seu repo canônico: <https://github.com/rodrigo-kautzmann/cockpit-devoz>. Cada `SKILL.md` tem a seção **Código-fonte (canônico)** linkando os arquivos exatos. Assim não há duas fontes de verdade.
+
+Skills genuinamente autossuficientes (sem app própria) podem, sim, carregar o código em `skills/<nome>/scripts/`.
 
 ## Segredos
 Nenhum token/credencial no repo. Use variáveis de ambiente localmente e secrets do GitHub Actions no CI (Supabase `DATABASE_URL`, OAuth Xero/Zoho, API Superlógica).

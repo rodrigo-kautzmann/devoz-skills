@@ -59,3 +59,15 @@ Fonte de verdade da LLC = Xero (Chargebee fica de fora). Clientes majoritariamen
 ## Para incrementar esta skill
 Acrescente: novas contas/AccountCodes e suas classificações, mudanças de scope/OAuth,
 novos campos de fatura usados, e ajustes na regra de país.
+
+---
+
+## Código-fonte (canônico)
+
+O código executável desta skill **não** mora aqui — vive no repositório da aplicação do cockpit, com pipeline próprio (GitHub Actions). Esta skill é o ponteiro de "como rodar".
+
+**Repo:** [https://github.com/rodrigo-kautzmann/cockpit-devoz](https://github.com/rodrigo-kautzmann/cockpit-devoz)
+
+**Arquivos principais:**
+- `etl/xero_ingest.py`, `etl/xero_auth.py`, `etl/transform_xero.py`
+- `db/seed_classificacao_xero.csv`, `db/seed_plano_virtual_xero.csv`, `db/pais_override.csv`

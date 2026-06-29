@@ -58,3 +58,14 @@ OAuth (não tem o MCP).
 ## Para incrementar esta skill
 Acrescente: novos stages que signifiquem churn (em CHURN_STAGES), uso de Country_Operation
 quando preenchido, novos campos do deal, e padrões de cruzamento que descobrirmos.
+
+---
+
+## Código-fonte (canônico)
+
+O código executável desta skill **não** mora aqui — vive no repositório da aplicação do cockpit, com pipeline próprio (GitHub Actions). Esta skill é o ponteiro de "como rodar".
+
+**Repo:** [https://github.com/rodrigo-kautzmann/cockpit-devoz](https://github.com/rodrigo-kautzmann/cockpit-devoz)
+
+**Arquivos principais:**
+- `etl/zoho_ingest.py`, `etl/zoho_token.py`, `etl/build_dim_cliente.py`
