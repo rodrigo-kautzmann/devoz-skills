@@ -1,6 +1,6 @@
 {
   "name": "devoz-skills",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Repositório central de skills e automações da DevOZ — conhecimento executável versionado, independente de pessoas e máquinas.",
   "author": { "name": "DevOZ" },
   "keywords": ["devoz", "ozmap", "automacao", "cockpit", "financeiro"]
